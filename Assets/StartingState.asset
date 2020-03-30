@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c29379fb6a05b94d881391d351c4af4, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  titleText: 
+  storyText: 'You wake up in a blank room with only the bed you''re lying on. After
+    clearing your head you sit up on the edge of the bed, you take a look around the
+    room and the only thing you can see is the door opposite of you.
+
+
+    What to do?
+
+    1. Go through the door.
+
+    2. Go back to sleep.'
+  nextStates:
+  - {fileID: 11400000, guid: ee6ff24d611474a4c8a67f521fef615d, type: 2}
+  - {fileID: 11400000, guid: e41bdc8b60f186d459daf2a92c69eeee, type: 2}
